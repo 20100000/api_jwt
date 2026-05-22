@@ -56,7 +56,7 @@ export class UsersService {
     }
 
     await this.usersRepository.update(id, updateUserDto);
-    return this.findOne(id); // Retorna o registro atualizado
+    return this.findOne(id);
   }
 
   async remove(id: number): Promise<{ message: string }> {

@@ -2,9 +2,9 @@
   "name": "api_jwt",
   "version": "0.0.1",
   "description": "",
-  "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "author": "Tiago Honorio <tiago_honorio2010@hotmail.com@hotmail.com> (https://github.com/20100000)",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",

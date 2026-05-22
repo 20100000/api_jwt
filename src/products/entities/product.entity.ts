@@ -1,6 +1,6 @@
 // src/products/product.entity.ts
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
-import { User } from '../../users/entities/user.entity'; // Importa a outra entidade
+import { User } from '../../users/entities/user.entity';
 
 @Entity('products')
 export class Product {
@@ -10,7 +10,7 @@ export class Product {
   @Column()
   title: string;
 
-  @Column('decimal', { precision: 10, scale: 2 }) // Configura tipo decimal para dinheiro
+  @Column('decimal', { precision: 10, scale: 2 })
   price: number;
 
   @Column({ default: true })

@@ -26,7 +26,7 @@ export class UsersSeed implements OnApplicationBootstrap {
     });
 
     if (userExists) {
-      this.logger.log('🌱 Seed de usuários pulada: Usuário admin já existe.');
+      this.logger.log('Seed de usuários pulada: Usuário admin já existe.');
       return;
     }
 

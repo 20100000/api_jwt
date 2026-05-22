@@ -12,9 +12,9 @@ export class User {
   @Column({ unique: true })
   email: string;
 
-  @Column({ select: false }) // Corrige o Erro 3 (delete savedUser.password)
+  @Column({ select: false })
   password: string;
 
-  @OneToMany(() => Product, (product) => product.user) // Corrige o Erro 1 (user.products)
+  @OneToMany(() => Product, (product) => product.user)
   products: Product[];
 }
