@@ -1,0 +1,11 @@
+# Banco de Dados
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=minhasenhasegura123
+DB_DATABASE=meu_banco_nest
+
+# Servidor e Segurança
+PORT=3000
+JWT_SECRET=UmaChaveSuperSecretaEGuardaBemForte123!
+JWT_EXPIRES_IN=1d
